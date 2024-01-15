@@ -1,0 +1,39 @@
+
+ATMcard = "1234 2350 5678 3456"
+pinnumber = " 2346"
+amount = 1500
+amount_start = 0
+
+if (ATMcard == "1234 2354 5678 3456" and  pinnumber == " 2345"):
+
+    for withdrawal in (1,):
+      print("Welcome to indian bank")
+      print("inset your card")
+      print("withdrawal")
+      print("enter the amount")
+      print("enter your pin")
+
+      while amount_start <= amount:
+         print("count", amount_start, )
+         amount_start += 100
+
+    amount_start = 0
+
+    print("take your money")
+    print("take the card")
+
+
+
+
+
+elif  ATMcard != "1234 2354 5678 3456" or pinnumber == "2345":
+
+     print("anyone value is invalid")
+
+
+
+else:
+     print("invalid value ")
+
+
+print( "THANK TOU FOR USE ")
